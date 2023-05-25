@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="container">
+            {/* ici c est la partie header*/ }
       <header>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
@@ -27,7 +28,7 @@ function App() {
           </div>
         </nav>
       </header>
-
+      {/* ici c est la partie main*/ }
       <main>
         <div className="row">
           <div className="col-md-6">
@@ -57,7 +58,7 @@ function App() {
           </div>
         </div>
       </main>
-
+      {/* ici c est la partie footer*/ }
       <footer className="mt-5">
         <p>@ {new Date().getFullYear()} React App. All rights reserved.</p>
       </footer>
